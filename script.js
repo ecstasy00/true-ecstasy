@@ -1,4 +1,4 @@
-window.onload = async function() {
+window.onload = async function () {
     try {
         const response = await fetch('/api/twitter-auth');
         const data = await response.json();
